@@ -768,6 +768,7 @@ li:last-child {
     margin-top: 0rem;
     width: 90%;
     height: 48vh;
+    display: none;
   }
   .doravet {
     margin-top: 1rem;
@@ -775,16 +776,18 @@ li:last-child {
   }
   .loginleft {
     margin-left: 1.2rem;
+    margin-top: 5rem;
   }
   .registerimg {
     width: 90%;
     margin: 0 auto;
     margin-top: 2rem;
     height: 39vh;
+    display: none;
   }
   .register form {
     width: 90%;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 0rem;
   }
   .mainoverview1 div aside {
