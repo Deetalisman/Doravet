@@ -786,9 +786,38 @@ li:last-child {
     display: none;
   }
   .register form {
-    width: 90%;
-    margin-top: 4rem;
+    width: 100%;
+    margin-top: 1rem;
     margin-left: 0rem;
+  }
+  .regp {
+    margin-bottom: 2rem;
+  }
+  .fnlname {
+    display: inline-block;
+    margin-top: 1rem;
+    width: 92%;
+  }
+  .fnlname input {
+    width: 90%;
+  }
+  #reg {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .sign {
+    width: 60%;
+    line-height: 1rem;
+  }
+  .register label {
+    font-size: 1rem;
+  }
+  .lastname {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  #firstname {
+    margin-bottom: 1rem;
   }
   .mainoverview1 div aside {
     display: inline-block;

@@ -77,6 +77,7 @@ function Register() {
               />
             </small>
           </aside>
+          <br></br>
           <small>
             <label>Name of Organization</label>
             <br></br>
