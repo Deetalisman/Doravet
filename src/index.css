@@ -1,0 +1,809 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  position: relative;
+}
+.page1 {
+  margin-top: 1rem;
+  padding: 2rem 4rem 0;
+}
+.page1top {
+  display: flex;
+  justify-content: space-between;
+}
+.nav a {
+  margin: 0.1rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.nav {
+  margin-top: 0.4rem;
+}
+.register1 {
+  padding: 2rem 4rem 0;
+}
+.register {
+  display: flex;
+  justify-content: space-between;
+}
+.registerimg {
+  height: 80vh;
+  width: 45%;
+}
+.register h1 {
+  font-size: 1.1rem;
+}
+.register form {
+  width: 40%;
+  margin-top: 2rem;
+}
+.register form p {
+  font-size: 0.8rem;
+}
+form {
+  margin-top: 0.3rem;
+}
+form h1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.regp {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+form p span {
+  color: blue;
+}
+form label {
+  font-size: 0.8rem;
+}
+form input {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+}
+.createbutton {
+  background-color: rgb(18, 18, 118);
+  color: white;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.createbutton:hover {
+  background-color: rgb(94, 94, 175);
+}
+.votebutton {
+  margin-left: 1rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  background-color: rgb(225, 230, 240);
+  color: rgb(30, 78, 166);
+}
+.votebutton:hover {
+  background-color: blue;
+  color: white;
+}
+.page1bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+aside p {
+  font-size: 1.2rem;
+}
+.page1bottom aside h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.page1bottom aside h1 span {
+  color: rgb(30, 78, 166);
+}
+.page1bottom aside {
+  width: 55%;
+}
+.page1bottom article img {
+  width: 90%;
+}
+.page1bottom article {
+  margin-left: 2rem;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem 0;
+}
+.loginleft {
+  margin-top: 1rem;
+}
+.loginleft h1 {
+  margin-top: 7rem;
+}
+.loginleft p {
+  font-size: 1rem;
+}
+#loginleftbutt {
+  width: 20rem;
+  margin-top: 0rem;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
+#loginleftbut {
+  display: flex;
+  padding: 0.6rem 0.9rem;
+  margin: 0rem 0;
+}
+.loginimg {
+  width: 50%;
+  height: 87vh;
+  border-radius: 1rem;
+}
+.fnlname {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.fnlname input {
+  width: 80%;
+}
+.lastname {
+  margin-left: 0.7rem;
+}
+#email {
+  width: 70%;
+}
+#organization {
+  width: 70%;
+}
+#reg {
+  width: 75%;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+input {
+  padding: 0.5rem 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(176, 168, 168);
+}
+small {
+  margin-top: 1rem;
+}
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.connect1 {
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.sign {
+  font-size: 1rem;
+}
+.connect1 p {
+  font-size: 1.3rem;
+}
+form h1 {
+  font-size: 1.4rem;
+}
+form p {
+  font-size: 1rem;
+}
+.Homepage {
+  height: 100vh;
+  display: flex;
+}
+.Homepageleft {
+  background-color: white;
+  width: 15rem;
+  height: 100vh;
+}
+
+li {
+  list-style-type: none;
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  padding-left: 2.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+li:last-child {
+  margin-top: 5rem;
+}
+.Homepageleft img {
+  margin: 1.9rem;
+}
+.Homepageright {
+  width: 100%;
+}
+.Homepagerightbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 2rem;
+  border-left: 1px solid grey;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.Homepagerightbar h2 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.Homepagerightbar aside {
+  display: flex;
+}
+.Homepagerightbar aside a {
+  margin-right: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.6rem;
+}
+.createpoll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.createpollmain {
+  text-align: center;
+  border: 1px solid grey;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.3rem;
+}
+.createpollicon {
+  font-size: 2rem;
+}
+.ground {
+  background-color: rgb(250, 250, 248);
+  height: 89vh;
+  overflow-y: scroll;
+}
+.back {
+  background-color: rgba(235, 230, 241, 0.449);
+  border-left: 5px solid blue;
+}
+.pollform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: rgb(250, 250, 248);
+}
+.pollform label {
+  font-size: 0.8rem;
+}
+.pollform input {
+  font-size: 0.7rem;
+  outline: none;
+}
+.pollform1 {
+  border: 1px solid gray;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+.pollform2 {
+  border: 1px solid gray;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  height: 6rem;
+}
+.pollform form {
+  width: 22rem;
+}
+.pollform1 input {
+  width: 90%;
+}
+.pollform form aside {
+  display: flex;
+  justify-content: space-between;
+}
+.pollform1 input {
+  width: 90%;
+}
+.pollform1 aside input {
+  width: 75%;
+}
+#camname {
+  margin-bottom: 1rem;
+}
+#question {
+  width: 90%;
+}
+.pollform2 button {
+  text-align: right;
+  /* float: right; */
+  margin-top: 0.7rem;
+}
+.pollformsubmit {
+  display: flex;
+  justify-content: space-between;
+}
+.pollformsubmit p {
+  font-size: 0.9rem;
+  color: red;
+}
+.mainoverview {
+  padding: 2rem;
+  background-color: rgb(250, 250, 248);
+}
+.mainoverview1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.mainoverview1 div {
+  border-radius: 0.4rem;
+  padding: 0 1rem;
+  line-height: 0.6rem;
+  width: 25%;
+  display: flex;
+}
+.mainoverview1 div:first-child {
+  border: 2px solid rgb(134, 134, 243);
+  background-color: rgb(228, 228, 236);
+  color: blue;
+}
+.mainoverview1 div:nth-child(2) {
+  border: 2px solid palevioletred;
+  background-color: rgb(244, 220, 220);
+  color: rgb(209, 38, 95);
+}
+.mainoverview1 div:last-child {
+  border: 2px solid green;
+  background-color: rgb(187, 227, 187);
+  color: green;
+}
+.overviewicon {
+  margin-top: 1.3rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.pars {
+  font-size: 0.9rem;
+}
+.par {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.Overviewpolls {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.Overviewpoll {
+  border: 1px solid rgb(198, 196, 196);
+  padding: 0 1.5rem 1rem;
+  width: 40%;
+  border-radius: 0.4rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.Overviewpoll h4 {
+  color: rgb(66, 64, 64);
+}
+.Overviewpoll p {
+  color: grey;
+}
+.Overviewpoll1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+}
+.Overviewpoll1 div aside {
+  display: flex;
+}
+.Overviewpoll1 div aside p {
+  font-size: 0.8rem;
+}
+.dateicon {
+  margin-top: 0.5rem;
+  margin-right: 0.4rem;
+  color: grey;
+}
+.enddate {
+  margin-left: 1rem;
+}
+.polldes {
+  font-size: 0.9rem;
+}
+.Overviewpoll1 div {
+  line-height: 0.1rem;
+  font-size: 0.8rem;
+}
+.Overviewpoll button {
+  margin-left: 0;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+#icon {
+  margin-right: 0.3rem;
+  color: rgb(21, 21, 151);
+}
+#iconn {
+  margin-right: 0.7rem;
+  color: red;
+}
+.Homepageleft aside li:last-child {
+  color: red;
+}
+.Homepagerightbar {
+  color: rgb(92, 91, 91);
+}
+.pass {
+  line-height: 1.2rem;
+}
+.doravet {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.pollname {
+  font-weight: bold;
+  color: black;
+}
+@media screen and (max-width: 1150px) {
+  .page1bottom aside p {
+    font-size: 0.95rem;
+  }
+  .page1bottom article {
+    width: 50%;
+  }
+  .page1bottom {
+    margin-top: 8rem;
+  }
+  .page1bottom article img {
+    height: 20rem;
+    width: 100%;
+  }
+  .loginimg {
+    width: 60%;
+    height: 87vh;
+    border-radius: 1rem;
+  }
+  .loginleft {
+    margin-right: 2rem;
+  }
+  .fnlname input {
+    width: 68%;
+  }
+  #email {
+    width: 83%;
+  }
+  #organization {
+    width: 83%;
+  }
+  #reg {
+    width: 75%;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+  .mainoverview1 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .page1bottom aside h1 {
+    font-size: 2rem;
+  }
+  .nav a {
+    font-size: 0.8rem;
+  }
+  .page1bottom article img {
+    height: 20rem;
+    width: 100%;
+  }
+  .login {
+    padding: 2rem 3rem 0;
+  }
+  .loginimg {
+    width: 50%;
+    height: 80vh;
+    border-radius: 1rem;
+  }
+  .registerimg {
+    height: 33rem;
+    width: 55%;
+  }
+  .mainoverview1 {
+    width: 100%;
+  }
+  .Overviewpolls {
+    width: 100%;
+  }
+  .Overviewpoll {
+    width: 39%;
+  }
+  .pars {
+    font-size: 0.7rem;
+  }
+  .mainoverview1 div {
+    border-radius: 0.4rem;
+    padding: 0 0.6rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .page1,
+  .login,
+  .register1 {
+    padding: 2rem 0.6rem 0;
+  }
+  .page1bottom aside h1 {
+    font-size: 1.7rem;
+  }
+  .page1bottom aside p {
+    font-size: 0.85rem;
+  }
+  .page1bottom aside {
+    width: 40%;
+  }
+  #loginleftbutt {
+    width: 10rem;
+  }
+  .loginimg {
+    margin-top: 2rem;
+    width: 55%;
+    height: 70vh;
+  }
+  .loginleft p {
+    font-size: 0.8rem;
+  }
+  .Overviewpoll {
+    padding: 1rem 1rem;
+  }
+  .polldes {
+    font-size: 0.8rem;
+  }
+  .pars {
+    line-height: 0.8rem;
+  }
+}
+@media screen and (max-width: 730px) {
+  .Overviewpoll {
+    width: 90%;
+  }
+  .Homepageleft {
+    width: 10rem;
+  }
+  li {
+    padding-left: 1.8rem;
+  }
+  .Homepageleft img {
+    margin-top: 1.3rem;
+    margin-left: 0.7rem;
+    width: 7rem;
+  }
+  .Homepagerightbar {
+    padding: 0 1rem;
+  }
+  .Homepagerightbar h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .mainoverview1 {
+    flex-wrap: wrap;
+  }
+  .mainoverview1 div {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 2rem;
+  }
+  .mainoverview1 div aside {
+    display: flex;
+  }
+  .pars {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .overviewicon {
+    margin-top: 0.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .page1bottom {
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
+  .page1bottom aside {
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .page1bottom article {
+    width: 90%;
+    text-align: center;
+  }
+  .page1bottom article img {
+    height: 25rem;
+    width: 80%;
+  }
+  .page1 {
+    padding: 1rem 0.6rem 2rem;
+  }
+  .nav a {
+    margin: 0.1rem 0.5rem;
+  }
+  .page1bottom aside h1 {
+    font-size: 1.5rem;
+  }
+  .login {
+    flex-direction: column-reverse;
+    margin-bottom: 1rem;
+  }
+  .loginimg {
+    margin: 0 auto;
+    margin-top: 0rem;
+    width: 80%;
+    height: 70vh;
+  }
+  .loginleft {
+    margin-left: 3.5rem;
+  }
+  .loginleft h1 {
+    margin-top: 1rem;
+  }
+  .register1 {
+    margin-bottom: 2rem;
+  }
+  .register {
+    flex-direction: column-reverse;
+  }
+  .registerimg {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 25rem;
+  }
+  .register form {
+    width: 70%;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+  }
+  .Homepagerightbar aside a {
+    font-size: 0.9rem;
+  }
+  .pars {
+    font-size: 0.8rem;
+  }
+  .mainoverview1 div {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 1rem;
+  }
+  .mainoverview {
+    padding: 2rem 1rem;
+  }
+  .Homepageleft {
+    width: 8rem;
+  }
+  li {
+    padding-left: 1rem;
+  }
+  .Homepageleft img {
+    margin-top: 1.3rem;
+    margin-left: 0.4rem;
+    width: 7rem;
+  }
+  .Homepagerightbar h2 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .createpollmain {
+    font-size: 0.8rem;
+  }
+  .pollform form {
+    width: 16rem;
+  }
+  .pollform1 input {
+    width: 85%;
+  }
+  .pollform1 aside input {
+    width: 55%;
+  }
+  #question {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .page1bottom aside {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+  }
+  .page1bottom article {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .page1bottom article img {
+    height: 17rem;
+    width: 90%;
+  }
+  .page1 {
+    padding: 1rem 0.6rem 2rem;
+  }
+  .nav {
+    display: none;
+  }
+  .createbutton,
+  .votebutton {
+    font-size: 0.7rem;
+  }
+  .loginimg {
+    margin: 0 auto;
+    margin-top: 0rem;
+    width: 90%;
+    height: 20rem;
+  }
+  .doravet {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .loginleft {
+    margin-left: 0.5rem;
+  }
+  .registerimg {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 25rem;
+  }
+  .register form {
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+  .mainoverview1 div aside {
+    display: inline-block;
+  }
+  .mainoverview1 div {
+    padding: 0 1rem;
+  }
+  .pars {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    margin-left: 0rem;
+  }
+  .overviewicon {
+    margin-top: 1.6rem;
+  }
+  .support {
+    display: none;
+  }
+  .Overviewpoll1 {
+    display: inline-block;
+  }
+}
